@@ -1,0 +1,82 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  button[type="submit"],
+  button[type="button"] {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  button[type="button"] {
+    background-color: #dc3545;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #c82333;
+  }
+  

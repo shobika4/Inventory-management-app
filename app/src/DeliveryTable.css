@@ -1,0 +1,47 @@
+.delivery-table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .logout-button, .past-deliveries-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover, .past-deliveries-button:hover {
+    background-color: #0056b3;
+  }
+  .body{
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+  }

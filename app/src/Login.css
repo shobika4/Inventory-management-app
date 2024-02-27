@@ -1,0 +1,36 @@
+.indexpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);;
+  }
+  
+  .index {
+    text-align: center;
+  }
+  
+  .head {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .IT, .DT {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .IT {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .DT {
+    background-color: #28a745;
+    color: #fff;
+  }
+  

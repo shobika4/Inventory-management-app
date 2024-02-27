@@ -1,0 +1,40 @@
+.indexpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .index {
+    text-align: center;
+  }
+  
+  .head {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .IT, .DT {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .IT:hover, .DT:hover {
+    background-color: #ddd;
+  }
+  
+  .IT {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .DT {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
